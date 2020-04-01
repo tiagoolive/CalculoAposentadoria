@@ -10,7 +10,7 @@ import android.widget.ArrayAdapter
 
 class MainActivity : Activity() {
 
-    fun OnCreate(savedInstanceState: Bundle?) {
+    override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         //definindo o arquivo de layout
